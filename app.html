@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <!-- this is how to add globally stuff to our html (overrides app.template.html in views) -->
+  <head {{ HEAD_ATTRS }}>
+    <script src="/script.js"></script>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>
